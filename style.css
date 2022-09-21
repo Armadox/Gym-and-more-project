@@ -1,0 +1,1236 @@
+/*
+THEME NAME: PROJECT DARK
+AUTHOR: DAN ADRIAN CLAUDIU DAVID
+Version: 4.6617
+Tags: eCommerce
+*/
+
+
+body
+{
+    background-color: #161616;
+    color: white;
+}
+
+a:hover
+{
+  transition: color .5s linear;
+  color: orange;
+}
+
+.wac-qty-button
+{
+    border:0px!important;
+}
+
+a
+{
+  transition: color .5s linear;
+    text-decoration: none;
+    color:white;
+}
+
+a.btn-link
+{
+  text-decoration: none;
+  color:white;
+}
+
+.woocommerce-checkout #payment
+{
+    background-color:red;
+}
+
+a.btn-link:hover
+{
+  transition: color .3s linear;
+  text-decoration: none;
+  color:gray;
+}
+
+.data.item.content
+{
+    padding-left:0%!important;
+}
+
+th, td
+{
+    color: white;
+}
+
+.woocommerce-result-count
+{
+    font-size:25px;
+    margin-top:100px;
+}
+
+/*.borderTest
+{
+    border: 3px solid;
+    border-color: red;
+}*/
+
+iframe
+{
+    width:100%;
+}
+
+.shoppingBody
+{
+    padding:90px 30px;
+
+}
+
+.footerLogoFix
+{
+    filter: invert(20%);
+}
+
+.navbar
+{
+    padding: 0px;
+    margin: 0px;
+    background-color: #e3f2fd;
+    position: sticky;
+    
+}
+
+.roundBlackBackground
+{
+    
+    text-shadow: 2px 2px #bb1c1c;
+    
+}
+
+
+.bg-custom
+{
+    
+    background-color:rgba(0, 0, 0, 0);
+}
+
+.fixed-bg 
+{
+    background-image: url("assets/images/images/GM_background_1.webp");
+    min-height: 440px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fixed-bg2 
+{
+    background-image: url("assets/images/images/GM_background_2.webp");
+    min-height: 140px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.brand
+{
+    width: 100%;
+    padding-top: 30px;
+}
+
+.fa-twitter-square
+{
+    color:#1DA1F2;
+}
+
+.fa-instagram-square
+{
+    color:#a737b1;
+}
+
+.fa-discord
+{
+    color:#7289da;
+}
+
+.fa-facebook-square
+{
+    color:#4267B2;
+}
+
+.content 
+{
+    position: absolute;
+    padding-top: 19%;
+    padding-left: 18%;
+    
+}
+
+.data.item.content 
+{
+    position: relative;
+    padding-top: 19%;
+    padding-left: 18%;
+    
+}
+
+.socialMedia a
+{
+    font-size: 70px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.carousel-inner
+{
+    width: 100%;  
+    height:auto;
+    
+}
+
+.cutImages
+{
+    width: 100%;     /*2 images = 50%; 4 images = 25%...*/
+    height: 500px;
+    object-fit: cover;
+    object-position: 50% 30%;
+    float: left;
+    font-size: 2px;
+}
+
+.cutImages2
+{
+    width: 100%;     /*2 images = 50%; 4 images = 25%...*/
+    height: 500px;
+    object-fit: cover;
+    object-position: 50% 20%;
+    float: left;
+    font-size: 2px;
+}
+
+.row.marginFix
+{
+    margin-right: 0;
+}
+
+.carouselImages
+{
+    
+    height: auto;
+    object-fit: cover;
+    filter: brightness(100%);
+}
+
+h1
+{
+    margin: 0px;
+    padding: 30px;
+}
+
+.container-fluid
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.centered
+{
+    display: block;
+    margin: auto;
+    width: 50%;
+   
+}
+
+i.centered
+{
+    display: block;
+    margin: auto;
+    width: 100%;
+   
+}
+
+/*Image for 1st banner*/
+
+.jumbatronFix
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(20%);
+}
+
+.btn-custom{
+  line-height: 1.25ex;
+  height: 39px;
+    margin-top:10px;
+    border-color: white;
+    border-width: 1px 1px 3px 0px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    
+    padding-right:3px;
+    margin-right:0px;
+    float: left;
+}
+
+.btn-custom2{
+    line-height: 1.25ex;
+    height: 39px;
+    margin-top:10px;
+    border-width: 1px 0px 3px 1px;
+    border-color:rgb(187, 28, 28);
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    padding-left:3px;
+    margin-left:0px;
+    float:left;
+}
+
+.btn-custom3{
+  line-height: 1.25ex;
+  height: 39px;
+  margin-top:10px;
+  background-color: white;
+  border-radius: 5px;
+  
+  margin-left:auto;
+  
+}
+
+.btn-custom4{
+  line-height: 1.25ex;
+  height: 39px;
+  margin-top:10px;
+  background-color: rgb(187, 28, 28);
+  border-radius: 5px;
+  
+  margin-left:auto;
+  
+}
+
+
+
+.archiveCart > button > .cart-customlocation > span > bdi
+{
+  color:rgb(187, 28, 28);
+}
+
+.productCart > button > .cart-customlocation > span > bdi
+{
+  color:white;
+}
+
+.woocommerce-Price-amount.amount > bdi
+{
+  color:white;
+}
+
+.bg-custom-notification
+{
+  background-color:orange;
+}
+
+.btn-onImage
+{
+    color: whitesmoke;
+    background-color: rgba(0, 0, 0, 0.568);
+    border-color: rgba(61, 61, 61, 0.562);
+    border-width: 5px;
+}
+
+.offcanvas
+{
+    background-color: rgb(187, 28, 28);
+    
+}
+
+.canvasButton
+{
+    margin-right: -50px;
+    
+}
+
+#bordercontrol
+{
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+}
+
+.carousel-item
+{
+    transition: -webkit-transform .6s ease;
+    transition: transform .6s ease;
+    transition: transform .6s ease,-webkit-transform .6s ease;
+    height:auto;
+} 
+
+.carousel-item-next
+{
+    transition: -webkit-transform .6s ease;
+    transition: transform .6s ease;
+    transition: transform .6s ease,-webkit-transform .6s ease;
+    height:auto;
+} 
+
+.carousel-item-next
+{
+    transition: -webkit-transform .6s ease;
+    transition: transform .6s ease;
+    transition: transform .6s ease,-webkit-transform .6s ease;
+    height:auto;
+} 
+
+.form-container
+{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:20px;
+}
+
+.onsale {
+	position: absolute;
+	display: inline-block;
+	background: rgb(187, 28, 28);
+	color: white;
+	height: 2.5rem;
+	width: 2.5rem;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 2.5rem;
+	margin: 0px;
+  margin-left:30px;
+	transform: rotate(-20deg);
+	animation: beat 0.5s ease infinite alternate;
+    border:0px;
+}
+
+	.onsale:before,
+	.onsale:after {
+		content:"";
+		position: absolute;
+		background: inherit;
+		height: inherit;
+		width: inherit;
+		top: 0;
+		left: 0;
+		z-index: -1;
+		transform: rotate(40deg);
+	}
+	onsale:after {
+		transform: rotate(60deg);
+	}
+
+    @keyframes beat {
+        from {	transform: rotate(-20deg) scale(1); }
+        to {	transform: rotate(-20deg) scale(1.1); }
+    }
+
+
+.form-container form
+{
+    width: 500px;
+    border-radius: 5px;
+    border:0px;
+    padding:20px;
+    text-align: center;
+    background-color: gray;
+}
+
+.box
+{
+    width: 100%;
+    border-radius: 5px;
+    border:#000;
+    padding: 12px 14px;
+    font-size: 18px;
+    margin: 10px 0px;
+}
+
+::marker
+{
+    font-size: 0px;
+}
+
+.size-woocommerce_thumbnail, .woocommerce-placeholder, .wp-post-image
+{
+    width:75%;
+    padding:40px;
+    border-radius: 10px;
+    background-color: white;
+    height: auto;
+    display: block;
+    margin: auto;
+    object-fit: contain;
+    margin-top:40px;
+}
+
+.card-body > h2
+{
+  display: none;
+}
+
+#brandname
+{
+    font-size: 120%;
+    font-weight: bold;
+}
+
+
+.productlist
+{
+    border: 2.5px solid whitesmoke;
+    background-color: white;
+    border-radius: 9px;
+    padding: 10px;
+}
+
+
+.form-container form p
+{
+    margin-top: 20px;
+    font-size: 20px;
+    color:black;
+}
+
+.form-container form p a
+{
+    color:rgb(187, 28, 28);
+}
+
+.form-container form p a:hover
+{
+    color:rgb(187, 28, 28);
+    text-decoration: underline;
+}
+
+.message
+{
+    position:static;
+    top:0; left:0; right:0;
+    padding:15px 10px;
+    background-color: white;
+    text-align: center;
+    z-index: 1000;
+    box-shadow: gray;
+    font-size: 90px;
+    color: greenyellow;
+}
+
+
+.woocommerce-loop-product__title
+{
+    line-height: 2.2ex;
+    height: 9ex; /* 2.5ex for each visible line */
+    font-size:26px;
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding-top:15px;
+    padding-bottom:0px;
+    margin-bottom:0px;
+}
+
+.categoryStyle
+{
+    text-align: center;
+    color: white;
+}
+
+a.added_to_cart.wc-forward {
+    display: none;
+}
+
+
+span bdi
+{
+    color:white;
+    font-weight: bold;
+}
+
+.price > del, .price > ins
+{
+    color:white;
+}
+
+.price
+{
+    display: block;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    line-height: 2.5ex;
+    height: 7.5ex; /* 2.5ex for each visible line */
+    
+}
+
+
+.archiveProduct
+{
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.attachment-woocommerce_thumbnail.size-woocommerce_thumbnail
+{
+  background-color:white;
+  border-radius: 15px;
+  padding:10px;
+}
+
+.buyButton
+{
+    display: block;
+    margin: auto;
+    width: 80%;
+    border: 0px;
+    background-color: rgb(187, 28, 28);
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    transition: 0.3s;
+}
+
+.buyButton.loading
+{
+  transition: 0.3s;
+  background-color:green;
+}
+
+
+
+  
+  .buyButton span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .buyButton span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -10px;
+    transition: 0.5s;
+  }
+  
+  .buyButton:hover span {
+    padding-right: 25px;
+  }
+  
+  .buyButton:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  .customCartButton
+  {
+    width: 100%;
+    line-height: 2.25ex;
+    height: 5ex;
+  }
+
+  .customCartButton > button > a {          /* removes amount of items from price button*/
+    font-size:0px;
+  }
+
+  .customCartButton > button > a > span > bdi /* Font of Price*/
+  {
+    font-size: 15px;
+    color:black;
+  }
+
+  .customCartButton > button > span > .cart-customlocation > span   /* removes price from Cart notification*/
+  {
+    font-size: 0px;
+  }
+
+  
+  .archiveCart
+  {
+    width: 100%;
+    height:0px;
+    z-index: 1;
+    
+    
+  }
+  
+  .productCart
+  {
+    width: 100%;
+    height:0px;
+    z-index: 1;
+    
+    
+  }
+
+  .archiveCart > button
+  {
+    display: block;
+    margin-left: auto;
+    
+    
+  }
+  
+  .productCart > button
+  {
+    display: block;
+    margin-left: auto;
+    
+    
+  }
+
+  .archiveCart > button > a {          /* removes amount of items from price button*/
+    font-size:0px;
+    
+  }
+
+  .archiveCart > button > a > span > bdi /* Font of Price*/
+  {
+    font-size: 15px;
+    color:black;
+  }
+
+
+  
+
+  /*.customCartButton > button > a
+  {
+    
+  }*/
+
+  .woocommerce a.remove 
+  {
+    display: block;
+    font-size: 1.5em;
+    height: 1em;
+    width: 1em;
+    text-align: center;
+    line-height: 1;
+    border-radius: 100%;
+    color: white!important;
+    text-decoration: none;
+    font-weight: 700;
+    border: 0;
+  }
+  .my-acc
+  {
+    font-size: 15px;
+    color:rgb(187, 28, 28);
+  }
+
+
+  .aws-container
+  {
+    margin-top:10px;
+  }
+  .aws-container .aws-search-field                                  /*SEARCH FORM*/
+  {
+    font-size: 10px;
+    background-color: black;
+    border: 0px;
+    border-bottom-right-radius: 15px!important;
+    border-top-right-radius: 15px!important;
+    
+  }
+
+  .aws-container .aws-search-form .aws-form-btn                 
+  {
+    background-color: black;
+    border-color: rgb(187, 28, 28);
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 2px;
+    border-bottom-left-radius: 15px!important;
+    border-top-left-radius: 15px!important;
+
+  }
+
+
+  .product_title.entry-title
+  {
+    font-size:30px;
+    text-align: center;
+    padding-bottom: 5px;
+  }
+
+  .polo2 > .product > .summary > .price > span > bdi        /*PRICE ON SINGLE PAGE*/
+  {
+    font-size: 30px;
+    color:white!important;
+  }
+
+  .polo2 > .product > .summary > .price                 /*MARGIN OF THE PRICE*/
+  {
+    margin-bottom:50px;
+    margin-top:50px;
+  }
+
+  .cart > .quantity > select 
+  {                                                         /*DROPDOWN SELECTOR*/                        
+    outline:none;
+    border: 0px;
+    background-color:black;
+    color:white;
+    border-color:#f14d63;
+    width: 40%;
+    
+    
+  }
+
+
+  .woocommerce-product-details__short-description > p 
+  {
+    color:white;
+    border-radius: 5px;
+    text-align:left;
+  }
+
+  .summary > form > .quantity           /*DROPDOWN SELECTOR */
+  {
+    display: block;
+    margin: auto;
+    
+    text-align: center;
+  }
+
+  div.single_variation_wrap > .woocommerce-variation-add-to-cart > button.single_add_to_cart_button  /*ADD TO CART BUTTON ON SINGLE PAGE*/
+  {
+    display: block;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(187, 28, 28);
+    margin-bottom: 100px;
+    margin-top: 30px;
+    font-size:30px;
+    border-radius: 5px;
+    transition: all .5s linear;
+    color:white;
+  }
+
+  div.single_variation_wrap > .woocommerce-variation-add-to-cart > button.single_add_to_cart_button:hover  /*ADD TO CART BUTTON ON SINGLE PAGE*/
+  {
+    background-color:orange;  
+  }
+  
+  .summary > form > .single_add_to_cart_button  /*ADD TO CART BUTTON ON SINGLE PAGE*/
+  {
+    display: block;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(187, 28, 28);
+    margin-bottom: 100px;
+    margin-top: 30px;
+    font-size:30px;
+    border-radius: 5px;
+    transition: all .5s linear;
+    color:white;
+  }
+
+  .summary > form > .single_add_to_cart_button:hover  /*ADD TO CART BUTTON ON SINGLE PAGE*/
+  {
+    background-color:orange;  
+  }
+
+  
+
+  .description_tab                                    /*DESCRIPTION TABS ON SINGLE PAGE*/
+  {
+    float: left;
+  }
+
+  .infoList > a > button                            /*DESCRIPTION TABS BUTTONS ON SINGLE PAGE*/
+  {
+    background-color: gray;
+    border-right:0px;
+    border-left:0px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom:5px;
+    border-color:gray;
+  }
+
+  .infoList.active > a > button                            
+  {
+    background-color: white;
+    border-right:0px;
+    border-left:0px;
+  }
+
+  .card.info
+  {
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+
+  p.price
+  {
+    
+    border-radius: 19px;
+  }
+
+  .summary > p.price                                    /*ANNOYING LINE IN PRICE UGH*/
+  {
+    font-size:20px;
+    color: white;
+  }
+
+  .polo1 > .product > .onsale
+  {
+    font-size:25px;
+    margin-left: 40px;
+  }
+
+  .product-thumbnail > a > img
+  {
+    width: 40%;
+  }
+
+  form.woocommerce-cart-form                /*CART PAGE*/
+  {
+    border-radius: 10px;
+    border-color: rgb(187, 28, 28);;
+    border-width: 5px;
+    border-style:ridge;
+  }
+
+  div.cart_totals
+  {
+    margin-top:40px;
+    border-radius: 2px;
+    background-color:rgb(187, 28, 28);;
+  }
+
+  div.wc-proceed-to-checkout
+  {
+    width:100%;
+  }
+
+  a.checkout-button
+  {
+    width: 100%;
+    text-align: center;
+    background-color:black;
+  }
+
+  tr.variationTable
+  {
+    color:white;
+    border-radius: 14px;
+    border-width:5px;
+    border-color: white;
+  }
+
+  th.label > label
+  {
+    
+    color:white;
+    font-size:20px;
+  }
+
+  tr.variationTable > td.value > select
+  {
+    
+    font-size:20px; 
+  }
+
+  table.variations
+  {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    width: 100%;
+  }
+
+  tr.variationTable
+  {
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+  }
+
+  .woocommerce-variation-price > .price
+  {
+      height:5ex;
+  }
+
+  div.quantity>input
+  {
+    padding-bottom:4px;
+    display: block;
+    margin: auto;
+    outline: none;
+    border: 0px;
+    background-color: black;
+    color: white;
+    border-color: #f14d63;
+    width: 40%;
+    border-width:3px;
+    border-radius:5px;
+    border-color:red;
+    border-style:solid;
+    
+  }
+
+  div.single_variation_wrap
+  {
+    margin-bottom: 100px;
+  }
+
+  div.single_variation_wrap > .woocommerce-variation-add-to-cart > button.single_add_to_cart_button
+  {
+    display: block;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(187, 28, 28);
+    margin-bottom: 100px;
+    margin-top: 30px;
+    font-size: 30px;
+    border-radius: 5px;
+    transition: all .5s linear;
+    color: white;
+  }
+
+  div.woocommerce-variation.single_variation
+  {
+    margin-bottom:100px;
+  }
+
+  div.woocommerce-variation.single_variation > .woocommerce-variation-description
+  {
+    text-align: center;
+    margin-bottom: 0px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    background-color:rgba(255, 0, 0, 0.432);
+    border-top-left-radius: 15px;
+    font-size: 20px;
+    color:black;
+    
+  }
+
+  div.woocommerce-variation.single_variation > .woocommerce-variation-price
+  {
+    padding-top: 10px;
+    border-bottom-right-radius: 15px;
+    font-size: 40px;
+  }
+
+  div.woocommerce-variation.single_variation > .woocommerce-variation-price > .price > .woocommerce-Price-amount > bdi
+  {
+    color:white;
+    
+  }
+
+  div.woocommerce-variation.single_variation > .woocommerce-variation-availability
+  {
+    
+    text-align: center;
+    margin:auto;
+    margin-top:40px;
+    width: 40%;
+    border-radius: 100px;
+    color:white;
+  }
+
+  div.summary > h1.product_title
+  {
+    padding:0;
+    margin-top:30px;  
+  }
+
+  a.reset_variations
+  {
+    padding-left: 5px;
+    color:red;
+  }
+
+  .products.col-12.row
+  {
+    
+  }
+
+  .container-fluid 
+{
+    margin: 0px!important;
+    padding: 0px;
+    width:99.9%;
+}
+
+.container {
+    max-width: 90%;
+}
+
+p.stock.in-stock
+{
+  line-height: 2.5ex;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 1.25ex ; /* 2.5ex for each visible line */
+    padding-top: 1.25ex ; /* 2.5ex for each visible line */
+}
+
+.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt
+{
+  background-color: rgb(218, 138, 20);
+}
+
+.categoryTop
+{
+  font-weight: bold;
+  font-size:20px;
+  color:rgb(187, 28, 28);
+  text-align: center;
+  margin-bottom:30px;
+}
+
+
+div.product_meta > .posted_in > a
+{
+  transition: all .5s linear;
+  color:whitesmoke!important;
+}
+
+div.product_meta > .posted_in > a:hover
+{
+  transition: all .5s linear;
+  color:green!important;
+}
+
+.menuBar
+{
+  position: sticky;
+  top: 0px;
+  transform: scale(0.8);
+  z-index:1;
+}
+
+.categoryLine
+{
+  color:whitesmoke;
+
+}
+
+.productStyle
+{
+  padding:30px;
+}
+
+
+.woocommerce ul.products li.product h2 
+{
+  line-height: 2.5ex;
+  height: 5ex; /* 2.5ex for each visible line */
+  overflow: hidden;
+}
+
+.woocommerce-LoopProduct-link > hr
+{
+  width: 60%;
+  text-align: center;
+  color:red;
+  margin:20px auto;
+
+}
+
+div#ttr_main > #ttr_content > .row > div > h4,h1
+{
+  display: none;
+}
+
+.aboutUsText
+{
+  font-family: 'Pacifico', cursive;
+
+
+
+  
+}
+
+.aboutUsTextHeader
+{
+  margin-top:30px;
+  margin-bottom:30px;
+  font-family: 'Edu SA Beginner', cursive;
+}
+
+section.related.products > h2
+{
+  margin-top:50px;
+  text-align: center;
+  font-size: 50px;
+  color:rgb(187, 28, 28);
+  font-family: 'Rubik Moonrocks', cursive;
+}
+
+.single-product-carousel
+{
+  margin-top:100px
+}
+
+.archive-carousel
+{
+  margin:auto;
+  margin-top:100px;
+  width:80%;
+  z-index: 0;
+  
+}
+
+
+nav.woocommerce-MyAccount-navigation > ul >li:first-child
+{
+  display: none;
+}
+
+nav.woocommerce-MyAccount-navigation
+{
+  margin-top:50px;
+  margin-bottom: 100px;
+  border-width: 5px;
+  border-radius: 15px;
+  border-color: rgb(187, 28, 28);
+  border-style:solid;
+  width: 70%;
+  
+}
+
+.woocommerce-MyAccount-navigation-link
+{
+  font-size: 24px;
+  margin:10px;
+}
+
+.footerBox
+{
+  margin-top:150px!important;
+}
+
+.page-numbers > li
+{
+    float:left;
+    margin: 10px;
+    padding: 10px;
+    background-color:rgb(187, 28, 28);
+    border-radius: 5px;
+
+}
+
+.page-numbers.current
+{
+    color:orange;
+}
+
+.wc-proceed-to-checkout > .ppc-button-wrapper
+{
+ display:none;   
+}
+
+#buttons-container 
+{
+    display:none;
+}
+    
